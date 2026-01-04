@@ -30,4 +30,10 @@
 - find = find file 
 - ps = runnung processes
 - cp = copy
-- 
+- tcpdump host IP or tcpdump host HOSTNAME	= Filters packets by IP address or hostname
+- tcpdump src host IP or = 	Filters packets by a specific source host
+- tcpdump dst host IP	= Filters packets by a specific destination host
+- tcpdump port PORT_NUMBER	= Filters packets by port number
+- tcpdump src port PORT_NUMBER	= Filters packets by the specified source port number
+- tcpdump dst port PORT_NUMBER	= Filters packets by the specified destination port number
+- tcpdump PROTOCOL =	Filters packets by protocol; examples include ip, ip6, and icmp
